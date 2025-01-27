@@ -6,4 +6,5 @@ def reverse_number(n):
         n /= 10
     return r
 
-print(reverse_number(123))
+a = int(input("Enter A Number To Find Its Reverse"))
+print(reverse_number(a))
